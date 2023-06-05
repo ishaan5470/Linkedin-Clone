@@ -1,0 +1,171 @@
+.leftside{
+    display: grid;
+    grid-area: leftside;
+    padding:0 1em 0;
+   
+ 
+}
+.left-container{
+    background-color: #ffff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    padding: 50px;
+    padding-left: 2em;
+    margin: auto;
+    padding: 40px   0px 40px;
+    word-wrap: break-word; /* “word-wrap: break-word;” will split word without making the word not break in the middle and wrap it into next line.*/
+
+    
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+    border: none;
+    position: relative;
+    /*background: url("/public/linkedin-bg.jpeg");
+    background-position: center;
+    background-size: 100px;
+    height: 54px;
+    margin: -12;*/
+    
+    
+
+}
+.left-container1 a {
+    font-weight: 1000;
+    font-size: large;
+    top:0;
+    font-size: 20px;
+    font:bolder;
+
+
+    
+}
+.left-container1 a:hover{
+    text-decoration: underline blue;
+
+
+}
+.left-container img{
+    width: 200px;
+    top: 0;
+    margin-bottom: 10px;
+    height: 50px;
+    transform: translateY(-80%);
+    left: 0;
+    right: 0;
+
+
+}
+.my-image{
+    width: 120x;
+    height: 120px;
+    max-width: 55px;
+    max-height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin:70px;
+}
+.info{
+    font-weight: 10;
+    font-size:13px;
+    color:gray
+}
+.border{
+    width: 100%;
+    color: grey;
+    margin: 10px 0 10px;
+    padding: 0;
+    border:0.001px solid rgb(222, 222, 222)
+
+    
+}
+.engagement{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+
+}
+.aa{
+    font-weight: 400;
+    color:rgb(79, 77, 77);
+    margin:auto;
+}
+.bb{
+    color: blue;
+    font: bolder;
+}
+.aaa{
+    font-size: smaller;
+    margin: 0 2px 1px;
+    color:gray
+}
+
+.bbb{
+    text-decoration: underline;
+
+}
+.bbb:hover{
+    color: blue;
+}
+.aaaa{
+    display: flex;
+    flex-direction: column;
+}
+.aaa:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+.aaaa:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+.aa:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+.community{
+    background-color: #ffff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    padding: 50px;
+    padding-left: 2em;
+    margin: auto;
+    padding: 40px  70px 20px;
+    word-wrap: break-word; /* “word-wrap: break-word;” will split word without making the word not break in the middle and wrap it into next line.*/
+
+    
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+    border: none;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    text-align:left;
+    flex-direction: column;
+  
+}
+.community a {
+    color: black;
+    padding:4px 0px  4px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+}
+.discover{
+    font-size: small;
+    color:grey;
+    max-width: 100%;
+    width: 200%;
+    object-fit:contain;
+
+}
+
+.add{
+    transform: translateX(400%);
+    font-size: 40px;
+}
+.group1{
+    transform: translateX(-200%);
+}
+.events{
+    transform: translateX(-100%);
+}

@@ -1,0 +1,205 @@
+.main{
+    display: grid;
+    grid-area: main;
+    
+    overflow:hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+    padding: 20px 420px 50px 20px;
+    align-items: center;
+    flex-wrap: nowrap; 
+    transform: translateX(-20%);
+    
+    
+}
+.main-card{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.dp{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.matters img{
+    
+  
+    width: 24px;
+    height: 24px;
+    
+
+}
+.matters{
+    display: flex;
+    margin: 0 0 8px;
+  
+   
+}
+.matters button{
+    outline: none;
+    
+    font-size: 14px;
+    line-height: 1;
+    background: transparent;
+    
+    margin: 20px;
+    align-items: center;
+    font-weight: 600; 
+    
+}
+.gallery{
+    width:20px;
+    height: 20px;
+    border: none;
+    margin: 0 4px 0 -2px;
+}
+.video{
+    width:20px;
+    height: 20px;
+    border: none;
+    
+
+}
+.orange{width:20px;
+    height: 20px;
+    border: none;
+
+}
+.article
+{width:20px;
+    height: 20px;
+    border: none;
+
+}
+.start{
+   background: transparent;
+    border: none;
+    min-width: 100px;
+    font-weight: 600 ;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding-right: 250px;
+    pointer-events: visible;
+    
+}
+.matters span{
+    color: rgba(0,0,0,0.6);
+    position: relative;
+    color: #70b5f9;
+}
+.post{
+    display:flex
+}
+.matters button{
+   margin:15px;
+   flex-grow: 1;
+   border-radius: 35px;
+   margin: 15px 38px 0;
+}
+.feed1{
+    overflow:hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+    padding: 20px 420px 50px 20px;
+    align-items: center;
+    flex-wrap: nowrap; 
+    transform: translateX(-20%); 
+}
+.border1{
+    width: 100%;
+    color: grey;
+    margin: 10px 0 10px;
+    padding: 0;
+    border:0.001px solid rgb(42, 42, 42)    ;
+    min-width: 250px;
+
+    
+}
+.feed1{
+     flex-wrap: nowrap;
+     align-items: center;
+     display: flex;
+     flex-grow: 1; /*every child will set to an equal size inside the container*/
+
+
+
+}
+.feed a{
+    margin-right:12px ;
+    display: flex;
+  
+}
+.beard1{
+    width: 48px;
+    height: 48px;
+}
+
+
+.feed div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0; /*it'll actually be 0px wide is if there's absolutely no content or padding inside it*/
+    flex-grow: 1;
+   
+}
+.feed a{
+    transform: translateY(-280%);
+}
+.feed span:first-child{
+    font-weight: 700;
+    color: rgba(0,0,0,1 );
+    font-size: 14px;
+
+}
+.feed span:nth-child(n+2){
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+.feed button{
+    top: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    left:350px;
+   
+    background-color: transparent;
+    border: none;
+    position: fixed;
+}
+.posting{
+    display: block;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+}
+.posting{ 
+    
+
+}
+.describe{
+    text-align: left;
+    font-size: 14px;
+    overflow: hidden;
+    color: rgba(0,0,0,0.9);
+}
+.posting img{
+    object-fit: contain;
+    min-width: 100%;
+    
+
+
+}
+.goldman{
+    object-fit: contain;
+}

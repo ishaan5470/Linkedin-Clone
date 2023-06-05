@@ -1,0 +1,127 @@
+.postmodal{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:99999; /*Overlapping elements with a larger z-index cover those with a smaller one. hence the element is more prioritized*/
+    background-color: rgba(0,0,0,0.8);
+    
+}
+.content{
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    max-height: 90%;
+    overflow: initial;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:50px;
+    margin: 0 auto;
+     
+}
+.content-sub{
+    display: block;
+    padding:15px 26px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.content-sub button{
+
+    height: 40px;
+    width: 40px;
+    pointer-events: none;
+
+}
+
+.shared-content{
+    display: flex;
+   
+    flex-grow: 1;
+    vertical-align: baseline;
+    overflow: auto;
+    padding:8px 20px;
+    background: transparent;
+    align-items: center;
+}
+.shared-content img{
+    width: 48px;
+    height: 48px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+.shared-content span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+.shared-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px 12px 16px
+}
+.action-button button{
+    width: 40px;
+    height: 40px;
+    
+    background-color: transparent;
+    border: none;
+    color:rgba(0,0,0,0.6);
+    flex-direction: column;
+    
+}
+.action-button img{
+    width: 40px;
+    height: 40px;
+    min-width: auto;
+    
+
+}
+.shared-comment{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(0,0,0,0.15);
+    padding-left: 10px;
+}
+.post-button{
+    min-width: 60px;
+    padding: 12px;
+    
+}
+.post-button button{
+    border-radius: 20px;
+    padding:8px;
+    background-color: blue;
+    color:white
+}
+.post-button button:hover{
+    background: lightblue ;
+}
+.editor{
+    padding:12px 24px;
+    width: 100%;
+    
+
+}
+.editor textarea{
+    width: 100%;
+}
+.video123{
+    border-radius:15px;
+    width:50%;
+    border:1px solid grey;
+    margin-left:120px;
+    text-align: center;
+
+    
+}

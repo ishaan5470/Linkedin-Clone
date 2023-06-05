@@ -1,0 +1,190 @@
+.header  { 
+    margin: 1.5px;
+    padding:22 px;
+    top:0;
+    left: 0;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    line-height: 1;
+}
+.header p {
+    display: flex;
+    align-items: center;
+    min-height:100%;
+    margin: 0 auto;
+}
+.home-image{
+    width: 40px;
+    display: flex;
+    margin-left: 20px;
+    padding: 2px 0 0;
+
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    opacity: 1;
+    top:0;
+    left: 0;
+    margin: -38px;
+    transform: translateX(-30%);
+    justify-content: center;
+
+
+
+
+
+}
+.search input{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color: #eef3f8;
+    padding: 2px 34px;
+    vertical-align: text-top;
+    font-size: large;
+    font-weight: 400;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    transform: translateX(-500%);
+    margin-top: 4.8px;
+    pointer-events: none; /*pointer will be replaced by I icon*/
+    transition: background-color 0.15s;
+}
+.nav{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-left: auto;
+    align-items: center;
+    padding: 0px 250px 0px;
+    margin: 0 -70px 0;
+    transform: translateX(20%);
+
+
+    @media (max-width:750px) {
+        position: fixed;
+        left:0;
+        bottom:0; /*in phone screen i want nav items to look at the bottom left */
+        width: 100%;
+        
+    }
+}
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+.home-icon span:after {
+    content: " ";
+    transform: scaleX(1);
+    border-bottom: 2px solid white;
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+    border-color: rgb(0,0,0,0.9);
+}
+.nav span{
+    color: rgb(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    @media (max-width:750px) {
+        min-width:70px; 
+        
+    }
+}
+
+.home-icon:hover   {
+    color: rgb(0,0,0,0.6);
+}
+.group{
+    display: flex;
+    flex-direction: row;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+.group:hover{
+    
+        color: rgb(0,0,0,0.6);
+ 
+}
+.span1{
+    color: rgb(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    @media (max-width:750px) {
+        min-width:70px; 
+        
+    }
+
+}
+.business:hover{
+    color: rgb(0,0,0,0.6);
+}
+.telegram:hover{
+    color: rgb(0,0,0,0.6);
+}
+.notification:hover{
+    color: rgb(0,0,0,0.6);
+}
+.avatar span{
+    display: flex;
+    align-items: center;
+
+}
+.work span{
+
+}
+.arrowdown1{
+    position: absolute;
+}
+.work{
+    padding-left: 10px;
+    border-left: 1px solid rgb(0,0,0,0.2);
+    display:flex;
+    flex-direction: column;
+}
+.avatar a span{
+    position: absolute;
+    top:85px;
+    background-color: white;
+    padding:2px;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    /*display: none; /*unitl here it wont display anyting*/
+    background-color: none;
+}
+
+.premium{
+    width: 40%;
+    text-decoration: none;
+    right:0;
+
+ 
+}
+.premium span{
+    color: orange;
+    text-decoration: none;
+    font-weight: 300;
+}

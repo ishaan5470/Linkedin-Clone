@@ -1,0 +1,15 @@
+body{
+  overflow: scroll;
+  /*let you see the scroll bar when you scroll up and down*/
+  overflow-x: hidden; /*no horizontal bar for scrollinh */
+  
+}
+:root body, html{
+  background-color: hsl(0, 0%, 85%);
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
